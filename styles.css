@@ -5,7 +5,7 @@
 }
 
 body {
-    color: #5D6063;
+    background-color: #5D6063;
 }
 
 a:link,
@@ -37,6 +37,10 @@ a:hover {
   margin-right: 50px;
   font-size: 18px;
   text-decoration: none;
+}
+
+#dallinimg {
+  align-content: right;
 }
 
 .menu li a {
@@ -124,4 +128,25 @@ ol{
 .education {
   margin: 10px;
   width: 20%;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #f9f9f9;
+  }
 }
